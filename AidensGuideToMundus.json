@@ -25,7 +25,7 @@
     "race": [
         {
             "name": "Human",
-            "source": "AGtm",
+            "source": "AGtM",
             "edition": "one",
             "creatureTypes": [
                 "humanoid"
