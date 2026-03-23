@@ -1234,6 +1234,117 @@
             ]
         },
         {
+            "name": "Circle of Death",
+            "source": "AGtM",
+            "className": "Druid",
+            "classSource": "XPHB",
+            "subclassShortName": "Death",
+            "subclassSource": "AGtM",
+            "level": 3,
+            "entries": [
+                "{@i You become death destroyer of worlds}",
+                "Druids of the Circle of Death draw on the lifeforce of others to power their magic.",
+                {
+                    "name": "Circle of Death Spells",
+                    "source": "AGtM",
+                    "className": "Druid",
+                    "classSource": "XPHB",
+                    "subclassShortName": "Death",
+                    "subclassSource": "AGtM",
+                    "level": 3,
+                    "entries": [
+                        "When you reach a Druid level specified in the Circle of Death Spells table, you thereafter always have the listed spells prepared.",
+                        {
+                            "type": "table",
+                            "caption": "Circle of Death Spells",
+                            "colLabels": [
+                                "Druid Level",
+                                "Prepared Spells"
+                            ],
+                            "colStyles": [
+                                "col-1 text-center",
+                                "col-11"
+                            ],
+                            "rows": [
+                                [
+                                    "3rd",
+                                    "{@spell Toll the Dead|XPHB}, {@spell False Life|XPHB}, {@spell Inflict Wounds|XPHB}, {@spell Gentle Repose|XPHB}, {@spell Ray of Enfeeblement|XPHB}"
+                                ],
+                                [
+                                    "5th",
+                                    "{@spell Speak with Dead|XPHB}, {@spell Vampiric Touch|XPHB}"
+                                ],
+                                [
+                                    "7th",
+                                    "{@spell Greater Invisibility|XPHB}, {@spell Death Ward|XPHB}"
+                                ],
+                                [
+                                    "9th",
+                                    "{@spell Raise Dead|XPHB}, {@spell Conjure Volley|XPHB}"
+                                ]
+                            ]
+                        }
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Shape of Death",
+                    "source": "AGtM",
+                    "className": "Druid",
+                    "classSource": "XPHB",
+                    "subclassShortName": "Death",
+                    "subclassSource": "AGtM",
+                    "level": 3,
+                    "entries": [
+                        "As a magic action, you can expend a use of your wild shape and bring death upon those near to you. Choose up to wisdom modifier creatures within 60 feet of you they must make a wisdom saving throw against your spell save. On a failure taking necrotic damage equal to a roll of D6's equal to half your druid level. On a success taking half damage. You also gain temporary hit points equal to the damage rolled."
+                    ],
+                    "type": "entries"
+                }
+            ]
+        },
+        {
+            "name": "Friend of Death",
+            "source": "AGtM",
+            "className": "Druid",
+            "classSource": "XPHB",
+            "subclassShortName": "Death",
+            "subclassSource": "AGtM",
+            "level": 6,
+            "header": 2,
+            "entries": [
+                "You add your wisdom modifier to constitution saves and also to death saves."
+            ],
+            "type": "entries"
+        },
+        {
+            "name": "Dead Men Tell no Tales",
+            "source": "AGtM",
+            "className": "Druid",
+            "classSource": "XPHB",
+            "subclassShortName": "Death",
+            "subclassSource": "AGtM",
+            "level": 10,
+            "header": 2,
+            "entries": [
+                "When a creature within 60 feet of you drops to 0 hit points you can use a reaction to regain a use of wild shape. You can use this feature wisdom modifier (min 1), and you regain all expended uses when you finish a long rest."
+            ],
+            "type": "entries"
+        },
+        {
+            "name": "The Dead no Longer Sleep",
+            "source": "AGtM",
+            "className": "Druid",
+            "classSource": "XPHB",
+            "subclassShortName": "Death",
+            "subclassSource": "AGtM",
+            "level": 14,
+            "header": 2,
+            "entries": [
+                "You are immune to necrotic damage. As a magic action, you summon forth remains of the fallen from the earth choose 2d6 creatures within 120 feet they must make a wisdom save against your spell save. On a failure they take 5d8 necrotic damage and 5d8 bludgeoning and have the restrained condition for the next minute. They can use their action to repeat this save on their turn. On a success they only take half damage. You can use this feature proficiency bonus amount of times, you regain all uses of this feature after finishing a long rest."
+            ],
+            "type": "entries"
+        },
+        {
             "name": "Doom Fighter",
             "source": "AGtM",
             "className": "Fighter",
