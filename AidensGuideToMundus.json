@@ -691,6 +691,43 @@
                 "Silent Casting|Bard|XPHB|Assassins|AGtM|6",
                 "Bardic Poison|Bard|XPHB|Assassins|AGtM|14"
             ]
+        },
+        {
+            "name": "Order of Fallindriea",
+            "shortName": "Fallindriea",
+            "source": "AGtM",
+            "className": "Cleric",
+            "classSource": "XPHB",
+            "edition": "classic",
+            "subclassFeatures": [
+                "Order of Fallindriea|Cleric|XPHB|Fallindriea|AGtM|3",
+                "Holy Speed|Cleric|XPHB|Fallindriea|AGtM|6",
+                "Divine Concentration|Cleric|XPHB|Fallindriea|AGtM|17"
+            ],
+            "additionalSpells": [
+                {
+                    "prepared": {
+                        "3": [
+                            "Find Familiar|XPHB",
+                            "Magic Missile|XPHB",
+                            "Mirror Image|XPHB",
+                            "Misty Step|XPHB"
+                        ],
+                        "5": [
+                            "Counterspell",
+                            "Haste"
+                        ],
+                        "7": [
+                            "Blight",
+                            "Dimension Door"
+                        ],
+                        "9": [
+                            "Hold Monster",
+                            "Cone of Cold|XPHB"
+                        ]
+                    }
+                }
+            ]
         }
     ],
     "subclassFeature": [
@@ -855,6 +892,120 @@
             "header": 2,
             "entries": [
                 "On your turn as a bonus action you can expend a bardic inspiration die to coat your blade or ammunition in poison. A creature that takes Piercing or Slashing damage from the poisoned weapon or ammunition takes an extra four rolls of your bardic die as poison damage. Once applied, the poison retains potency for 1 minute or until its damage is dealt, whichever comes first."
+            ]
+        },
+        {
+            "name": "Order of Fallindriea",
+            "source": "AGtM",
+            "className": "Cleric",
+            "classSource": "XPHB",
+            "subclassShortName": "Fallindriea",
+            "subclassSource": "AGtM",
+            "level": 3,
+            "entries": [
+                "{@i The mistress of magic has blessed you}",
+                "The magic domain focuses on the Arcane and the mysteries of the goddess of magic. Clerics who tap into this domain wield magic in a new way.",
+                {
+                    "name": "Magic Domain Spells",
+                    "source": "AGtM",
+                    "className": "Cleric",
+                    "classSource": "XPHB",
+                    "subclassShortName": "Fallindriea",
+                    "subclassSource": "AGtM",
+                    "level": 3,
+                    "entries": [
+                        "Your connection to this divine domain ensures you always have certain spells ready. When you reach a Cleric level specified in the Life Domain Spells table, you thereafter always have the listed spells prepared.",
+                        {
+                            "type": "table",
+                            "caption": "Life Domain Spells",
+                            "colLabels": [
+                                "Cleric Level",
+                                "Prepared Spells"
+                            ],
+                            "colStyles": [
+                                "col-1 text-center",
+                                "col-11"
+                            ],
+                            "rows": [
+                                [
+                                    "3rd",
+                                    "{@spell Find Familiar|XPHB}, {@spell Magic Missile|XPHB}, {@spell Mirror Missile|XPHB}, {@spell Misty Step|XPHB}"
+                                ],
+                                [
+                                    "5th",
+                                    "{@spell Counterspell|XPHB}, {@spell Haste|XPHB}"
+                                ],
+                                [
+                                    "7th",
+                                    "{@spell Blight|XPHB}, {@spell Dimension Door|XPHB}"
+                                ],
+                                [
+                                    "9th",
+                                    "{@spell Hold Monster|XPHB}, {@spell Cone of Cold|XPHB}"
+                                ]
+                            ]
+                        }
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Mistress of Magic",
+                    "source": "AGtM",
+                    "className": "Cleric",
+                    "classSource": "XPHB",
+                    "subclassShortName": "Fallindriea",
+                    "subclassSource": "AGtM",
+                    "level": 3,
+                    "entries": [
+                        "Your goddess lets you alter your magic as you cast it. Whenever you cast a spell you can choose to.",
+                        "Alter Elements If the spell deals Fire, Poison, Lightning, Thunder, Force, Radiant, Necrotic, Acid, Psychic, or Poison damage you can change the type to any of those.",
+                        "Alter Save You can change the type of save the creature must make for the spell.",
+                        "Save the faithful You can choose up to wisdom mod creatures to automatically succeed the saving throw."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Channel Divine Mage",
+                    "source": "AGtM",
+                    "className": "Cleric",
+                    "classSource": "XPHB",
+                    "subclassShortName": "Fallindriea",
+                    "subclassSource": "AGtM",
+                    "level": 3,
+                    "consumes": {
+                        "name": "Channel Divinity"
+                    },
+                    "entries": [
+                        "As a magic action you present your holy symbol and expend a use of your Channel Divinity to cast a spell. When you cast a spell in this way it is upcast to your highest spell slot."
+                    ],
+                    "type": "entries"
+                }
+            ]
+        },
+        {
+            "name": "Holy Speed",
+            "source": "AGtM",
+            "className": "Cleric",
+            "classSource": "XPHB",
+            "subclassShortName": "Fallindriea",
+            "subclassSource": "AGtM",
+            "level": 6,
+            "header": 2,
+            "entries": [
+                "When you cast a spell you can use a bonus action to cast a cantrip."
+            ]
+        },
+        {
+            "name": "Divine Concentration",
+            "source": "AGtM",
+            "className": "Cleric",
+            "classSource": "XPHB",
+            "subclassShortName": "Fallindriea",
+            "subclassSource": "AGtM",
+            "level": 17,
+            "header": 2,
+            "entries": [
+                "Your goddess has expanded your mind. You are able to concentrate on wisdom modifier (min 1) spells at once. You only ever roll concentration for one spell at time."
             ]
         }
     ]
