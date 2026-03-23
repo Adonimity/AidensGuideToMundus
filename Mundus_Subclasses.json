@@ -1,0 +1,132 @@
+{
+    "_meta": {
+        "sources": [
+            {
+                "json": "AGtM",
+                "full": "Aiden's Guide to Mundus",
+                "abbreviation": "AGtM",
+                "color": "00EAFF",
+                "authors": [
+                    "Aiden Murphy"
+                ],
+                "convertedBy": [
+                    "Aiden Murphy"
+                ],
+                "dateReleased": "NA",
+                "version": "Alpha 0.0.1",
+                "url": "NA"
+            }
+        ],
+        "edition": "classic",
+        "status": "wip",
+        "dateAdded": 1729973698,
+        "dateLastModified": 1757175607
+    },
+    "subclass": [
+        {
+            "name": "Path of the Dune Wanderer",
+            "shortName": "Dune Wanderer",
+            "source": "AGtM",
+            "className": "Barbarian",
+            "classSource": "XPHB",
+            "edition": "one",
+            "subclassFeatures": [
+                "Path of the Dune Wanderer|Barbarian|XPHB|Dune Wanderer|AGtM|3",
+                "Shifting Sands|Barbarian|XPHB|Dune Wanderer|AGtM|6",
+                "Speed of the Sands|Barbarian|XPHB|Dune Wanderer|AGtM|10",
+                "Rage of the Sandstorm|Barbarian|XPHB|Dune Wanderer|AGtM|14"
+            ]
+        }
+    ],
+    "subclassFeature": [
+        {
+            "name": "Path of the Dune Wanderer",
+            "source": "AGtM",
+            "className": "Barbarian",
+            "classSource": "XPHB",
+            "subclassShortName": "Dune Wanderer",
+            "subclassSource": "AGtM",
+            "level": 3,
+            "entries": [
+                "{@i Rage like the Desert Storm}",
+                "Barbarians who walk the Path of the Dune Wanderer live on the edge of civilization and the endless dunes. You have learned to survive the harshest of the desert. Your rage channels the violence of the dunes.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Resilience of the Dunes|Barbarian|XPHB|Dune Wanderer|AGtM|3"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Rage of the Desert Storm|Barbarian|XPHB|Dune Wanderer|AGtM|3"
+                }
+            ]
+        },
+        {
+            "name": "Resilience of the Dunes",
+            "source": "AGtM",
+            "className": "Barbarian",
+            "classSource": "XPHB",
+            "subclassShortName": "Dune Wanderer",
+            "subclassSource": "AGtM",
+            "level": 3,
+            "header": 1,
+            "entries": [
+                "You have learned to survive on the worst of conditions. You only ever need to consume food and water for a tiny sized creature no matter your size."
+            ]
+        },
+        {
+            "name": "Rage of the Desert Storm",
+            "source": "AGtM",
+            "className": "Barbarian",
+            "classSource": "XPHB",
+            "subclassShortName": "Dune Wanderer",
+            "subclassSource": "AGtM",
+            "level": 3,
+            "header": 1,
+            "entries": [
+                "While your rage is active you gain a blindsight up to 30 feet. A sandstorm gathers around you any creature within a 30 feet emanation from you must succeed a con save DC 8 + prof + con mod and on a fail is {@condition blinded}."
+            ]
+        },
+        {
+            "name": "Shifting Sands",
+            "source": "AGtM",
+            "className": "Barbarian",
+            "classSource": "XPHB",
+            "subclassShortName": "Dune Wanderer",
+            "subclassSource": "AGtM",
+            "level": 6,
+            "header": 2,
+            "entries": [
+                "While you are raging you move with the sand. You can reduce all damage you take by your strength modifier."
+            ],
+            "type": "entries"
+        },
+        {
+            "name": "Speed of the Sands",
+            "source": "AGtM",
+            "className": "Barbarian",
+            "classSource": "XPHB",
+            "subclassShortName": "Dune Wanderer",
+            "subclassSource": "AGtM",
+            "level": 10,
+            "header": 2,
+            "entries": [
+                "Whenever you take damage while raging you can use your reaction to teleport anywhere within your sandstorm."
+            ],
+            "type": "entries"
+        },
+        {
+            "name": "Rage of the Sandstorm",
+            "source": "AGtM",
+            "className": "Barbarian",
+            "classSource": "XPHB",
+            "subclassShortName": "Dune Wanderer",
+            "subclassSource": "AGtM",
+            "level": 14,
+            "header": 2,
+            "entries": [
+                "Your sandstorm increases to 60 feet now whenever a creature fails the con save they take an amount of d6's equal to your rage damage."
+            ],
+            "type": "entries"
+        }
+    ]
+}
