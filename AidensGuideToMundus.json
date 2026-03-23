@@ -182,7 +182,489 @@
                     ]
                 }
             ]
-        }
+        },
+        {
+            "name": "Elf",
+            "source": "AGtM",
+            "edition": "one",
+            "creatureTypes": [
+                "humanoid"
+            ],
+            "size": [
+                "M"
+            ],
+            "speed": 30,
+            "darkvision": 60,
+            "traitTags": [
+                "Improved Resting"
+            ],
+            "skillProficiencies": [
+                {
+                    "choose": {
+                        "from": [
+                            "insight",
+                            "perception",
+                            "survival"
+                        ]
+                    }
+                }
+            ],
+            "soundClip": {
+                "type": "internal",
+                "path": "races/elf.mp3"
+            },
+            "additionalSpells": [
+                {
+                    "name": "High Elf",
+                    "innate": {
+                        "3": {
+                            "daily": {
+                                "1": [
+                                    "detect magic|xphb"
+                                ]
+                            }
+                        },
+                        "5": {
+                            "daily": {
+                                "1": [
+                                    "misty step|xphb"
+                                ]
+                            }
+                        }
+                    },
+                    "ability": {
+                        "choose": [
+                            "int",
+                            "wis",
+                            "cha"
+                        ]
+                    },
+                    "known": {
+                        "1": {
+                            "_": [
+                                {
+                                    "choose": "level=0|class=Wizard"
+                                }
+                            ]
+                        }
+                    }
+                }
+            ],
+            "sizeEntry": {
+                "type": "item",
+                "name": "Size:",
+                "entries": [
+                    "Medium (about 5-6 feet tall)"
+                ]
+            },
+            "entries": [
+                {
+                    "type": "list",
+                    "style": "list-hang-notitle",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Age:",
+                            "entries": [
+                                "Average life span 250-280 years."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Language",
+                            "entries": [
+                                "You speak elvish which is french."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Darkvision",
+                    "entries": [
+                        "You have {@sense Darkvision|XPHB} with a range of 60 feet."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Elven Lineage",
+                    "entries": [
+                        "You are part of a lineage that grants you supernatural abilities.",
+                        "When you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a {@variantrule Long Rest|XPHB}. You can also cast the spell using any spell slots you have of the appropriate level.",
+                        "Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait.",
+                        {
+                            "type": "table",
+                            "caption": "Elven Lineages",
+                            "colLabels": [
+                                "Lineage",
+                                "Level 1",
+                                "Level 3",
+                                "Level 5"
+                            ],
+                            "colStyles": [
+                                "col-2",
+                                "col-6",
+                                "col-2",
+                                "col-2"
+                            ],
+                            "rows": [
+                                [
+                                    "High Elf",
+                                    "You know the {@spell Prestidigitation|XPHB} cantrip. Whenever you finish a {@variantrule Long Rest|XPHB}, you can replace that cantrip with a different {@filter cantrip from the Wizard spell list|spells|level=0|class=Wizard}.",
+                                    "{@spell Detect Magic|XPHB}",
+                                    "{@spell Misty Step|XPHB}"
+                                ]
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Fey Ancestry",
+                    "entries": [
+                        "You have {@variantrule Advantage|XPHB} on saving throws you make to avoid or end the {@condition Charmed|XPHB} condition."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Keen Senses",
+                    "entries": [
+                        "You have proficiency in the {@skill Insight|XPHB}, {@skill Perception|XPHB}, or {@skill Survival|XPHB} skill."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Trance",
+                    "entries": [
+                        "You don't need to sleep, and magic can't put you to sleep. You can finish a {@variantrule Long Rest|XPHB} in 4 hours if you spend those hours in a trancelike meditation, during which you retain consciousness."
+                    ]
+                }
+            ],
+            "_versions": [
+                {
+                    "name": "Elf; High Elf Lineage",
+                    "source": "XPHB",
+                    "_mod": {
+                        "entries": {
+                            "mode": "replaceArr",
+                            "replace": "Elven Lineage",
+                            "items": {
+                                "name": "Elven Lineage (High Elf)",
+                                "type": "entries",
+                                "entries": [
+                                    "You are part of a lineage that grants you supernatural abilities. You know the {@spell Prestidigitation|XPHB} cantrip. Whenever you finish a {@variantrule Long Rest|XPHB}, you can replace that cantrip with a different {@filter cantrip from the Wizard spell list|spells|level=0|class=Wizard}.",
+                                    "When you reach character level 3, you learn the {@spell Detect Magic|XPHB} spell. When you reach character level 5, you also learn the {@spell Misty Step|XPHB} spell. You always have these spells prepared, and you can cast each spell once without a spell slot. Once you cast either of these spells with this trait, you can't cast that spell with it again until you finish a {@variantrule Long Rest|XPHB}. You can also cast the spell using any spell slots you have of the appropriate level.",
+                                    "Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the lineage)."
+                                ]
+                            }
+                        }
+                    },
+                    "additionalSpells": [
+                        {
+                            "innate": {
+                                "3": {
+                                    "daily": {
+                                        "1": [
+                                            "detect magic|xphb"
+                                        ]
+                                    }
+                                },
+                                "5": {
+                                    "daily": {
+                                        "1": [
+                                            "misty step|xphb"
+                                        ]
+                                    }
+                                }
+                            },
+                            "ability": {
+                                "choose": [
+                                    "int",
+                                    "wis",
+                                    "cha"
+                                ]
+                            },
+                            "known": {
+                                "1": {
+                                    "_": [
+                                        {
+                                            "choose": "level=0|class=Wizard"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Halfling",
+            "source": "AGtM",
+            "edition": "one",
+            "creatureTypes": [
+                "humanoid"
+            ],
+            "size": [
+                "S"
+            ],
+            "speed": 30,
+            "soundClip": {
+                "type": "internal",
+                "path": "races/halfling.mp3"
+            },
+            "sizeEntry": {
+                "type": "item",
+                "name": "Size:",
+                "entries": [
+                    "Small (about 2-3 feet tall)"
+                ]
+            },
+            "entries": [
+                {
+                    "type": "list",
+                    "style": "list-hang-notitle",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Age:",
+                            "entries": [
+                                "Average life span 60-80 years."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Language",
+                            "entries": [
+                                "You speak halfling which is russian."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Brave",
+                    "entries": [
+                        "You have {@variantrule Advantage|XPHB} on saving throws you make to avoid or end the {@condition Frightened|XPHB} condition."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Halfling Nimbleness",
+                    "entries": [
+                        "You can move through the space of any creature that is a size larger than you, but you can't stop in the same space."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Luck",
+                    "entries": [
+                        "When you roll a 1 on the {@dice d20} of a {@variantrule D20 Test|XPHB}, you can reroll the die, and you must use the new roll."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Naturally Stealthy",
+                    "entries": [
+                        "You can take the {@action Hide|XPHB} action even when you are obscured only by a creature that is at least one size larger than you."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Gnome",
+            "source": "AGtM",
+            "edition": "one",
+            "creatureTypes": [
+                "humanoid"
+            ],
+            "size": [
+                "S"
+            ],
+            "speed": 30,
+            "darkvision": 60,
+            "soundClip": {
+                "type": "internal",
+                "path": "races/gnome.mp3"
+            },
+            "sizeEntry": {
+                "type": "item",
+                "name": "Size:",
+                "entries": [
+                    "Small (about 3-4 feet tall)"
+                ]
+            },
+            "entries": [
+                {
+                    "type": "list",
+                    "style": "list-hang-notitle",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Age:",
+                            "entries": [
+                                "Average life span 40-60 years."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Language",
+                            "entries": [
+                                "You speak gnomish which is greek."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Darkvision",
+                    "entries": [
+                        "You have {@sense Darkvision|XPHB} with a range of 60 feet."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Gnomish Cunning",
+                    "entries": [
+                        "You have {@variantrule Advantage|XPHB} on Intelligence, Wisdom, and Charisma saving throws."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Gnomish Lineage",
+                    "entries": [
+                        "You are part of a lineage that grants you supernatural abilities, Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you gain the trait):",
+                        {
+                            "type": "list",
+                            "style": "list-hang-notitle",
+                            "items": [
+                                {
+                                    "type": "item",
+                                    "name": "Forest Gnome",
+                                    "entries": [
+                                        "You know the {@spell Minor Illusion|XPHB} cantrip. You also always have the {@spell Speak with Animals|XPHB} spell prepared. You can cast it without a spell slot a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}, and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}. You can also use any spell slots you have to cast the spell."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "_versions": [
+                {
+                    "name": "Gnome; Forest Gnome Lineage",
+                    "source": "XPHB",
+                    "_mod": {
+                        "entries": {
+                            "mode": "replaceArr",
+                            "replace": "Gnomish Lineage",
+                            "items": {
+                                "name": "Gnomish Lineage (Forest Gnome)",
+                                "type": "entries",
+                                "entries": [
+                                    "You know the {@spell Minor Illusion|XPHB} cantrip. You also always have the {@spell Speak with Animals|XPHB} spell prepared. You can cast it without a spell slot a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}, and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}. You can also use any spell slots you have to cast the spell."
+                                ]
+                            }
+                        }
+                    },
+                    "additionalSpells": [
+                        {
+                            "innate": {
+                                "3": {
+                                    "daily": {
+                                        "pb": [
+                                            "speak with animals|xphb"
+                                        ]
+                                    }
+                                }
+                            },
+                            "ability": {
+                                "choose": [
+                                    "int",
+                                    "wis",
+                                    "cha"
+                                ]
+                            },
+                            "known": {
+                                "1": [
+                                    "minor illusion|xphb#c"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+	"name": "Orc",
+	"source": "AGtM",
+	"edition": "one",
+	"creatureTypes": [
+		"humanoid"
+	],
+	"size": [
+		"M"
+	],
+	"speed": 30,
+	"darkvision": 120,
+	"soundClip": {
+		"type": "internal",
+		"path": "races/orc.mp3"
+	},
+	"sizeEntry": {
+		"type": "item",
+		"name": "Size:",
+		"entries": [
+			"Medium (about 6-7 feet tall)"
+		]
+	},
+	"entries": [
+        {
+                    "type": "list",
+                    "style": "list-hang-notitle",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Age:",
+                            "entries": [
+                                "Average life span 90-110 years."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Language",
+                            "entries": [
+                                "You speak orcish which is japanese."
+                            ]
+                        }
+                    ]
+                },
+		{
+			"type": "entries",
+			"name": "Adrenaline Rush",
+			"entries": [
+				"You can take the {@action Dash|XPHB} action as a {@variantrule Bonus Action|XPHB}. When you do so, you gain a number of {@variantrule Temporary Hit Points|XPHB} equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}.",
+				"You can use this trait a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}, and you regain all expended uses when you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}."
+			]
+		},
+		{
+			"type": "entries",
+			"name": "Darkvision",
+			"entries": [
+				"You have {@sense Darkvision|XPHB} with a range of 120 feet."
+			]
+		},
+		{
+			"type": "entries",
+			"name": "Relentless Endurance",
+			"entries": [
+				"When you are reduced to 0 {@variantrule Hit Points|XPHB} but not killed outright, you can drop to 1 {@variantrule Hit Points|XPHB|Hit Point} instead. Once you use this trait, you can't do so again until you finish a {@variantrule Long Rest|XPHB}."
+			]
+		}
+	],
+	"hasFluff": true,
+	"hasFluffImages": true
+}
     ],
     "subclass": [
         {
