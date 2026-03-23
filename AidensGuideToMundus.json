@@ -944,7 +944,7 @@
             "name": "School of Fieldcraft",
             "shortName": "Fieldcraft",
             "source": "AGtM",
-            "className": "Fieldcraft",
+            "className": "Wizard",
             "classSource": "XPHB",
             "edition": "classic",
             "subclassFeatures": [
