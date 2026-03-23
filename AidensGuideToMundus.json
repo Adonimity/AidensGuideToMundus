@@ -884,7 +884,7 @@
                 "Street Fighter Rogue|Rogue|XPHB|Street Fighter|AGtM|3",
                 "Fast Fighter|Rogue|XPHB|Street Fighter|AGtM|9",
                 "Flurry of Knives|Rogue|XPHB|Street Fighter|AGtM|13",
-                "Double Sneak Attack|Rouge|XPHB|Street Fighter|AGtM|17"
+                "Double Sneak Attack|Rogue|XPHB|Street Fighter|AGtM|17"
             ]
         },
         {
@@ -1488,7 +1488,7 @@
             ]
         },
         {
-            "name": "Stature of Stone",
+            "name": "Sense of Stone",
             "source": "AGtM",
             "className": "Monk",
             "classSource": "XPHB",
