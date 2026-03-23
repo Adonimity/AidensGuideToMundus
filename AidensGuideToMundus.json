@@ -596,30 +596,30 @@
             ]
         },
         {
-	"name": "Orc",
-	"source": "AGtM",
-	"edition": "one",
-	"creatureTypes": [
-		"humanoid"
-	],
-	"size": [
-		"M"
-	],
-	"speed": 30,
-	"darkvision": 120,
-	"soundClip": {
-		"type": "internal",
-		"path": "races/orc.mp3"
-	},
-	"sizeEntry": {
-		"type": "item",
-		"name": "Size:",
-		"entries": [
-			"Medium (about 6-7 feet tall)"
-		]
-	},
-	"entries": [
-        {
+            "name": "Orc",
+            "source": "AGtM",
+            "edition": "one",
+            "creatureTypes": [
+                "humanoid"
+            ],
+            "size": [
+                "M"
+            ],
+            "speed": 30,
+            "darkvision": 120,
+            "soundClip": {
+                "type": "internal",
+                "path": "races/orc.mp3"
+            },
+            "sizeEntry": {
+                "type": "item",
+                "name": "Size:",
+                "entries": [
+                    "Medium (about 6-7 feet tall)"
+                ]
+            },
+            "entries": [
+                {
                     "type": "list",
                     "style": "list-hang-notitle",
                     "items": [
@@ -639,32 +639,30 @@
                         }
                     ]
                 },
-		{
-			"type": "entries",
-			"name": "Adrenaline Rush",
-			"entries": [
-				"You can take the {@action Dash|XPHB} action as a {@variantrule Bonus Action|XPHB}. When you do so, you gain a number of {@variantrule Temporary Hit Points|XPHB} equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}.",
-				"You can use this trait a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}, and you regain all expended uses when you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}."
-			]
-		},
-		{
-			"type": "entries",
-			"name": "Darkvision",
-			"entries": [
-				"You have {@sense Darkvision|XPHB} with a range of 120 feet."
-			]
-		},
-		{
-			"type": "entries",
-			"name": "Relentless Endurance",
-			"entries": [
-				"When you are reduced to 0 {@variantrule Hit Points|XPHB} but not killed outright, you can drop to 1 {@variantrule Hit Points|XPHB|Hit Point} instead. Once you use this trait, you can't do so again until you finish a {@variantrule Long Rest|XPHB}."
-			]
-		}
-	],
-	"hasFluff": true,
-	"hasFluffImages": true
-}
+                {
+                    "type": "entries",
+                    "name": "Adrenaline Rush",
+                    "entries": [
+                        "You can take the {@action Dash|XPHB} action as a {@variantrule Bonus Action|XPHB}. When you do so, you gain a number of {@variantrule Temporary Hit Points|XPHB} equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}.",
+                        "You can use this trait a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}, and you regain all expended uses when you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Darkvision",
+                    "entries": [
+                        "You have {@sense Darkvision|XPHB} with a range of 120 feet."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Relentless Endurance",
+                    "entries": [
+                        "When you are reduced to 0 {@variantrule Hit Points|XPHB} but not killed outright, you can drop to 1 {@variantrule Hit Points|XPHB|Hit Point} instead. Once you use this trait, you can't do so again until you finish a {@variantrule Long Rest|XPHB}."
+                    ]
+                }
+            ]
+        }
     ],
     "subclass": [
         {
@@ -673,12 +671,25 @@
             "source": "AGtM",
             "className": "Barbarian",
             "classSource": "XPHB",
-            "edition": "one",
+            "edition": "classic",
             "subclassFeatures": [
                 "Path of the Dune Wanderer|Barbarian|XPHB|Dune Wanderer|AGtM|3",
                 "Shifting Sands|Barbarian|XPHB|Dune Wanderer|AGtM|6",
                 "Speed of the Sands|Barbarian|XPHB|Dune Wanderer|AGtM|10",
                 "Rage of the Sandstorm|Barbarian|XPHB|Dune Wanderer|AGtM|14"
+            ]
+        },
+        {
+            "name": "College of Assassins",
+            "shortName": "Assassins",
+            "source": "AGtM",
+            "className": "Bard",
+            "classSource": "XPHB",
+            "edition": "classic",
+            "subclassFeatures": [
+                "College of Assassins|Bard|XPHB|Assassins|AGtM|3",
+                "Silent Casting|Bard|XPHB|Assassins|AGtM|6",
+                "Bardic Poison|Bard|XPHB|Assassins|AGtM|14"
             ]
         }
     ],
@@ -771,6 +782,80 @@
                 "Your sandstorm increases to 60 feet now whenever a creature fails the con save they take an amount of d6's equal to your rage damage."
             ],
             "type": "entries"
+        },
+        {
+            "name": "College of Assassins",
+            "source": "AGtM",
+            "className": "Bard",
+            "classSource": "XPHB",
+            "subclassShortName": "Assassins",
+            "subclassSource": "AGtM",
+            "level": 3,
+            "header": 1,
+            "entries": [
+                "{@i The not so silent death}",
+                "Bards of College of Assassins use the fact that they are welcome near many people of power to remove obstacles to their goals or remove enemies of the highest bidder.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Distracted Death|Bard|XPHB|Assassins|AGtM|3"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Killing Blow|Bard|XPHB|Assassins|AGtM|3"
+                }
+            ]
+        },
+        {
+            "name": "Distracted Death",
+            "source": "AGtM",
+            "className": "Bard",
+            "classSource": "XPHB",
+            "subclassShortName": "Assassins",
+            "subclassSource": "AGtM",
+            "level": 3,
+            "header": 1,
+            "entries": [
+                "Gain proficiency with poisoners kit. You add your charisma modifier to sleight of hand rolls. As a bonus action you can roll a deception or performance check against a creatures insight if you succeed on the creature you gain advantage on that creature for the next minute or until you use this feature again."
+            ]
+        },
+        {
+            "name": "Killing Blow",
+            "source": "AGtM",
+            "className": "Bard",
+            "classSource": "XPHB",
+            "subclassShortName": "Assassins",
+            "subclassSource": "AGtM",
+            "level": 3,
+            "header": 1,
+            "entries": [
+                "If you have advantage on an attack roll and roll a sleight of hand above the targets AC you can roll your Bardic die twice and add it to the damage."
+            ]
+        },
+        {
+            "name": "Silent Casting",
+            "source": "AGtM",
+            "className": "Bard",
+            "classSource": "XPHB",
+            "subclassShortName": "Assassins",
+            "subclassSource": "AGtM",
+            "level": 6,
+            "header": 2,
+            "entries": [
+                "When you cast a spell you can expend a use of your bardic to ignore all components for the spell or you can cast that spell as a bonus action. If the spell has an attack roll you add the bardic die to the attack roll. If the spell has a saving throw and targets a single creature you can subtract a roll of the bardic die from the roll."
+            ]
+        },
+        {
+            "name": "Bardic Poison",
+            "source": "AGtM",
+            "className": "Bard",
+            "classSource": "XPHB",
+            "subclassShortName": "Assassins",
+            "subclassSource": "AGtM",
+            "level": 14,
+            "header": 2,
+            "entries": [
+                "On your turn as a bonus action you can expend a bardic inspiration die to coat your blade or ammunition in poison. A creature that takes Piercing or Slashing damage from the poisoned weapon or ammunition takes an extra four rolls of your bardic die as poison damage. Once applied, the poison retains potency for 1 minute or until its damage is dealt, whichever comes first."
+            ]
         }
     ]
 }
