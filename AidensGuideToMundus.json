@@ -728,6 +728,231 @@
                     }
                 }
             ]
+        },
+        {
+            "name": "Circle of Death",
+            "shortName": "Death",
+            "source": "AGtM",
+            "className": "Druid",
+            "classSource": "XPHB",
+            "edition": "classic",
+            "subclassFeatures": [
+                "Circle of Death|Druid|XPHB|Death|AGtM|3",
+                "Friend of Death|Druid|XPHB|Death|AGtM|6",
+                "Dead Men Tell no Tales|Druid|XPHB|Death|AGtM|10",
+                "The Dead no Longer Sleep|Druid|XPHB|Death|AGtM|14"
+            ],
+            "additionalSpells": [
+                {
+                    "prepared": {
+                        "3": [
+                            "Toll the Dead|XPHB",
+                            "False Life|XPHB",
+                            "Inflict Wounds|XPHB",
+                            "Gentle Repose|XPHB",
+                            "Ray of Enfeeblement|XPHB"
+                        ],
+                        "5": [
+                            "Speak with Dead|XPHB",
+                            "Vampiric Touch|XPHB"
+                        ],
+                        "7": [
+                            "Greater Invisibility|XPHB",
+                            "Death Ward|XPHB"
+                        ],
+                        "9": [
+                            "Raise Dead|XPHB",
+                            "Conjure Volley|XPHB"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Doom Fighter",
+            "shortName": "Doom",
+            "source": "AGtM",
+            "className": "Fighter",
+            "classSource": "XPHB",
+            "edition": "classic",
+            "subclassFeatures": [
+                "Doom Fighter|Fighter|XPHB|Doom|AGtM|3",
+                "Dooming Slow|Fighter|XPHB|Doom|AGtM|7",
+                "Doomed Fight|Fighter|XPHB|Doom|AGtM|10",
+                "Mark of Doom|Fighter|XPHB|Doom|AGtM|15",
+                "Doomsday|Fighter|XPHB|Doom|AGtM|18"
+            ]
+        },
+        {
+            "name": "Warrior of Stone Fists",
+            "shortName": "Stone Fists",
+            "source": "AGtM",
+            "className": "Monk",
+            "classSource": "XPHB",
+            "edition": "classic",
+            "subclassFeatures": [
+                "Warrior of Stone Fists|Monk|XPHB|Stone Fists|AGtM|3",
+                "Stature of Stone|Monk|XPHB|Stone Fists|AGtM|6",
+                "Sense of Stone|Monk|XPHB|Stone Fists|AGtM|11",
+                "Shifting Stone|Monk|XPHB|Stone Fists|AGtM|11",
+                "Fist of Magma|Monk|XPHB|Stone Fists|AGtM|17"
+            ]
+        },
+        {
+            "name": "Oath of Mercy",
+            "shortName": "Mercy",
+            "source": "AGtM",
+            "className": "Paladin",
+            "classSource": "XPHB",
+            "edition": "classic",
+            "subclassFeatures": [
+                "Oath of Mercy|Paladin|XPHB|Mercy|AGtM|3",
+                "Aura of Peace|Paladin|XPHB|Mercy|AGtM|7",
+                "Expedited Mercy|Paladin|XPHB|Mercy|AGtM|15",
+                "The Ultimate Mercy|Paladin|XPHB|Mercy|AGtM|20"
+            ],
+            "additionalSpells": [
+                {
+                    "prepared": {
+                        "3": [
+                            "Hunter's Mark|XPHB",
+                            "Sleep|XPHB"
+                        ],
+                        "5": [
+                            "Darkness|XPHB",
+                            "Hold Person|XPHB"
+                        ],
+                        "9": [
+                            "Haste|XPHB",
+                            "Hypnotic Pattern|XPHB"
+                        ],
+                        "13": [
+                            "Freedom of Movement|XPHB",
+                            "Blight|XPHB"
+                        ],
+                        "17": [
+                            "Hold Monster|XPHB",
+                            "Modify Memory|XPHB"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Flames Walker",
+            "shortName": "Flames Walker",
+            "source": "AGtM",
+            "className": "Ranger",
+            "classSource": "XPHB",
+            "edition": "classic",
+            "subclassFeatures": [
+                "Flames Walker|Ranger|XPHB|Flames Walker|AGtM|3",
+                "Flame Step|Ranger|XPHB|Flames Walker|AGtM|7",
+                "Flames Mark|Ranger|XPHB|Flames Walker|AGtM|11",
+                "Wildfire Step|Ranger|XPHB|Flames Walker|AGtM|15"
+            ],
+            "additionalSpells": [
+                {
+                    "prepared": {
+                        "3": [
+                            "Searing Smite|XPHB"
+                        ],
+                        "5": [
+                            "Flame Blade|XPHB"
+                        ],
+                        "9": [
+                            "Fire Ball|XPHB"
+                        ],
+                        "13": [
+                            "Fire Shield|XPHB"
+                        ],
+                        "17": [
+                            "Flame Strike|XPHB"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Street Fighter Rogue",
+            "shortName": "Street Fighter",
+            "source": "AGtM",
+            "className": "Rogue",
+            "classSource": "XPHB",
+            "edition": "classic",
+            "subclassFeatures": [
+                "Street Fighter Rogue|Rogue|XPHB|Street Fighter|AGtM|3",
+                "Fast Fighter|Rogue|XPHB|Street Fighter|AGtM|9",
+                "Flurry of Knives|Rogue|XPHB|Street Fighter|AGtM|13",
+                "Double Sneak Attack|Rouge|XPHB|Street Fighter|AGtM|17"
+            ]
+        },
+        {
+            "name": "Primordial Sorcerer",
+            "shortName": "Primordial",
+            "source": "AGtM",
+            "className": "Sorcerer",
+            "classSource": "XPHB",
+            "edition": "classic",
+            "subclassFeatures": [
+                "Primordial Sorcerer|Sorcerer|XPHB|Primordial|AGtM|3",
+                "The Primordial Word|Sorcerer|XPHB|Primordial|AGtM|6",
+                "Primordial Counter Spell|Sorcerer|XPHB|Primordial|AGtM|14",
+                "Primordial Magic|Sorcerer|XPHB|Primordial|AGtM|18"
+            ]
+        },
+        {
+            "name": "Pact of the World",
+            "shortName": "World",
+            "source": "AGtM",
+            "className": "Warlock",
+            "classSource": "XPHB",
+            "edition": "classic",
+            "subclassFeatures": [
+                "Pact of the World|Warlock|XPHB|World|AGtM|3",
+                "One with Plants|Warlock|XPHB|World|AGtM|6",
+                "The World is With You|Warlock|XPHB|World|AGtM|10",
+                "One with the World|Warlock|XPHB|World|AGtM|14"
+            ],
+            "additionalSpells": [
+                {
+                    "prepared": {
+                        "3": [
+                            "Guidance|XPHB",
+                            "Create or Destroy Water|XPHB",
+                            "Entangle|XPHB",
+                            "Barkskin|XPHB",
+                            "Heat Metal|XPHB"
+                        ],
+                        "5": [
+                            "Call Lightning|XPH",
+                            "Plant Growth|XPHB"
+                        ],
+                        "7": [
+                            "Stone Shape|XPHB",
+                            "Grasping Vine|XPHB"
+                        ],
+                        "9": [
+                            "Tree Stride|XPHB",
+                            "Wall of Stone|XPHB"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "name": "School of Fieldcraft",
+            "shortName": "Fieldcraft",
+            "source": "AGtM",
+            "className": "Fieldcraft",
+            "classSource": "XPHB",
+            "edition": "classic",
+            "subclassFeatures": [
+                "School of Fieldcraft|Wizard|XPHB|Fieldcraft|AGtM|3",
+                "Natural Power|Wizard|XPHB|Fieldcraft|AGtM|6",
+                "Arcane Craze|Wizard|XPHB|Fieldcraft|AGtM|10",
+                "Rough Training|Wizard|XPHB|Fieldcraft|AGtM|14"
+            ]
         }
     ],
     "subclassFeature": [
@@ -917,7 +1142,7 @@
                         "Your connection to this divine domain ensures you always have certain spells ready. When you reach a Cleric level specified in the Life Domain Spells table, you thereafter always have the listed spells prepared.",
                         {
                             "type": "table",
-                            "caption": "Life Domain Spells",
+                            "caption": "Magic Domain Spells",
                             "colLabels": [
                                 "Cleric Level",
                                 "Prepared Spells"
@@ -1006,6 +1231,764 @@
             "header": 2,
             "entries": [
                 "Your goddess has expanded your mind. You are able to concentrate on wisdom modifier (min 1) spells at once. You only ever roll concentration for one spell at time."
+            ]
+        },
+        {
+            "name": "Doom Fighter",
+            "source": "AGtM",
+            "className": "Fighter",
+            "classSource": "XPHB",
+            "subclassShortName": "Doom",
+            "subclassSource": "AGtM",
+            "level": 3,
+            "entries": [
+                "{@i You doom all who dare to fight you}",
+                "Doom Fighters are known for being relentless pursuers and the are able to extend fights beyond most creatures abilities to survive. They are said to be imbued with some force of relentless power and endless vengeance.",
+                {
+                    "name": "Extended Fighting",
+                    "source": "AGtM",
+                    "className": "Fighter",
+                    "classSource": "XPHB",
+                    "subclassShortName": "Doom",
+                    "subclassSource": "AGtM",
+                    "level": 3,
+                    "entries": [
+                        "When hit by an enemy while bloodied you have resistance to bludgeoning, piercing, and slashing. When using second wind gain 2d6 temp HP."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Dooming Blade",
+                    "source": "AGtM",
+                    "className": "Fighter",
+                    "classSource": "XPHB",
+                    "subclassShortName": "Doom",
+                    "subclassSource": "AGtM",
+                    "level": 3,
+                    "entries": [
+                        "Any blade wielded by a doom fighter becomes dooming in itself. A Doom blade on hit against a enemy at less than full HP gains 1d4 necrotic damage. A doom blade hit against a enemy at half health deals 1d6 necrotic damage. The amount of damage die is doubled if the Doom fighter is under bloodied."
+                    ],
+                    "type": "entries"
+                }
+            ]
+        },
+        {
+            "name": "Dooming Slow",
+            "source": "AGtM",
+            "className": "Fighter",
+            "classSource": "XPHB",
+            "subclassShortName": "Doom",
+            "subclassSource": "AGtM",
+            "level": 7,
+            "header": 2,
+            "entries": [
+                "Escaping a doom fighter is near impossible. Any damage dealt by a doom fighter inflicts a slow of 10 feet until the end of their next turn. An enemy hit by an opportunity attack from a doom fighter has their speed set to 0 and must make a CON save of 8 + proficiency bonus + CON modifier. If failed the enemy takes 2d6 necrotic damage and the fighter heals for 2d4 hit-points. On a success the enemy takes half damage and the fighter gains 1d6 temp hp."
+            ]
+        },
+        {
+            "name": "Doomed Fight",
+            "source": "AGtM",
+            "className": "Fighter",
+            "classSource": "XPHB",
+            "subclassShortName": "Doom",
+            "subclassSource": "AGtM",
+            "level": 10,
+            "header": 2,
+            "entries": [
+                "When you deal necrotic damage you heal for half the damage dealt."
+            ]
+        },
+        {
+            "name": "Mark of Doom",
+            "source": "AGtM",
+            "className": "Fighter",
+            "classSource": "XPHB",
+            "subclassShortName": "Doom",
+            "subclassSource": "AGtM",
+            "level": 15,
+            "header": 2,
+            "entries": [
+                "An enemy hit by a Dooming blade becomes Doomed. A doomed enemy must attack the Doom fighter who doomed it on its turn. If the Doomed does not attack the fighter it must make a WIS save DC 8 + Proficiency Bonus + CON modifier. If failed the Doomed takes 6d12 necrotic damage. On a success it takes half damage."
+            ]
+        },
+        {
+            "name": "Doomsday",
+            "source": "AGtM",
+            "className": "Fighter",
+            "classSource": "XPHB",
+            "subclassShortName": "Doom",
+            "subclassSource": "AGtM",
+            "level": 18,
+            "header": 2,
+            "entries": [
+                "Using your action trigger Doomsday. Every doomed creature must make a CON save of DC 14 + proficiency bonus + CON modifier. On a successful save the creature takes 10d12 necrotic damage. On a failed save the creature is set to 1 HP. This feature can be used CON modifier (Minimum 1) times before needing a long rest to restore charges."
+            ]
+        },
+        {
+            "name": "Warrior of Stone Fists",
+            "source": "AGtM",
+            "className": "Monk",
+            "classSource": "XPHB",
+            "subclassShortName": "Stone Fists",
+            "subclassSource": "AGtM",
+            "level": 3,
+            "entries": [
+                "{@i You have fists of stone}",
+                "The warrior of stone fists spend years in the mountains honing their fists against the stone carving themselves to become one with the rock.",
+                {
+                    "name": "Fists of Stone",
+                    "source": "AGtM",
+                    "className": "Monk",
+                    "classSource": "XPHB",
+                    "subclassShortName": "Stone Fists",
+                    "subclassSource": "AGtM",
+                    "level": 3,
+                    "entries": [
+                        "Whenever you hit a creature with a unarmed strike if the creature is large or smaller you can push them back 10 feet. When you hit a creature with a strike from your flurry of blows you can force them to roll a strength save equal to your focus point save. On a failure the creature falls prone and has the restrained condition until the start of your next turn."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Skin of Stone",
+                    "source": "AGtM",
+                    "className": "Monk",
+                    "classSource": "XPHB",
+                    "subclassShortName": "Stone Fists",
+                    "subclassSource": "AGtM",
+                    "level": 3,
+                    "entries": [
+                        "Your skin has been hardened by years of training. You gain an AC bonus equal to your constitution modifier (minimum 1). On your turn you can use a bonus action to expend 2 focus points to become resistant to bludgeoning, piercing, and slashing damage for 1 minute."
+                    ],
+                    "type": "entries"
+                }
+            ]
+        },
+        {
+            "name": "Stature of Stone",
+            "source": "AGtM",
+            "className": "Monk",
+            "classSource": "XPHB",
+            "subclassShortName": "Stone Fists",
+            "subclassSource": "AGtM",
+            "level": 6,
+            "header": 2,
+            "entries": [
+                "You can not be moved against your will by any means. You cannot fly by any non-magical means and when falling the moment you hit the ground any creature within five feet takes half your falling damage."
+            ]
+        },
+        {
+            "name": "Stature of Stone",
+            "source": "AGtM",
+            "className": "Monk",
+            "classSource": "XPHB",
+            "subclassShortName": "Stone Fists",
+            "subclassSource": "AGtM",
+            "level": 11,
+            "header": 2,
+            "entries": [
+                "You have tremor sense of 30 feet and you can spend a focus point to extend the range to 120 feet for 10 minutes."
+            ]
+        },
+        {
+            "name": "Shifting Stone",
+            "source": "AGtM",
+            "className": "Monk",
+            "classSource": "XPHB",
+            "subclassShortName": "Stone Fists",
+            "subclassSource": "AGtM",
+            "level": 11,
+            "header": 2,
+            "entries": [
+                "You are able to mold the stone around you. As a reaction you can make any ten feet cube within 30 feet into difficult terrain. As a bonus action on your turn any creature within the area must succeed a dexterity save DC 8 + Proficiency Bonus + Wisdom Mod, on a fail their speed is set to 0 feet and take disadvantage on all attacks rolls. On success they are slowed by 20 feet."
+            ]
+        },
+        {
+            "name": "Fist of Magma",
+            "source": "AGtM",
+            "className": "Monk",
+            "classSource": "XPHB",
+            "subclassShortName": "Stone Fists",
+            "subclassSource": "AGtM",
+            "level": 17,
+            "header": 2,
+            "entries": [
+                "Your fist of stone become super heated add two martial arts die as fire damage. Any creature hit burns taking two rolls of your martial arts die as fire damage at the start of their next turn."
+            ]
+        },
+        {
+            "name": "Oath of Mercy",
+            "source": "AGtM",
+            "className": "Paladin",
+            "classSource": "XPHB",
+            "subclassShortName": "Mercy",
+            "subclassSource": "AGtM",
+            "level": 3,
+            "entries": [
+                "{@i All creatures deserve your mecry}",
+                "The Oath of Mercy binds Paladins to the ideals of kindness and mercy. They seek to end the suffering of others at any cost.",
+                "These paladins share the following tenets:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Show the sick and injured the mercy of a quick death",
+                        "Cease senseless violence even if requiring greater violence",
+                        "All creatures no matter what deserve mercy"
+                    ]
+                },
+                {
+                    "name": "Oath of Mercy Spells",
+                    "source": "AGtM",
+                    "className": "Paladin",
+                    "classSource": "XPHB",
+                    "subclassShortName": "Mercy",
+                    "subclassSource": "AGtM",
+                    "level": 3,
+                    "entries": [
+                        "The magic of your oath ensures you always have certain spells ready; when you reach a Paladin level specified in the Oath of Vengeance Spells table, you thereafter always have the listed spells prepared.",
+                        {
+                            "type": "table",
+                            "caption": "Oath of Mercy Spells",
+                            "colLabels": [
+                                "Paladin Level",
+                                "Prepared Spells"
+                            ],
+                            "colStyles": [
+                                "col-1 text-center",
+                                "col-11"
+                            ],
+                            "rows": [
+                                [
+                                    "3rd",
+                                    "{@spell Hunter's Mark|XPHB}, {@spell Sleep|XPHB}"
+                                ],
+                                [
+                                    "5th",
+                                    "{@spell Darkness|XPHB}, {@spell Hold Person|XPHB}"
+                                ],
+                                [
+                                    "9th",
+                                    "{@spell Haste|XPHB}, {@spell Hypnotic Patter|XPHB}"
+                                ],
+                                [
+                                    "13th",
+                                    "{@spell Freedom of Movement|XPHB}, {@spell Blight|XPHB}"
+                                ],
+                                [
+                                    "17th",
+                                    "{@spell Hold Monster|XPHB}, {@spell Modify Memory|XPHB}"
+                                ]
+                            ]
+                        }
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "A Quick Death",
+                    "source": "AGtM",
+                    "className": "Paladin",
+                    "classSource": "XPHB",
+                    "subclassShortName": "Mercy",
+                    "subclassSource": "AGtM",
+                    "level": 3,
+                    "entries": [
+                        "When you take the attack action against a creature that is poisoned or bloodied, you can expend one use of your channel divinity to usher them to the next life. The creature takes extra necrotic or radiant damage equal to 3 times their paladin level."
+                    ],
+                    "type": "entries"
+                }
+            ]
+        },
+        {
+            "name": "Aura of Peace",
+            "source": "AGtM",
+            "className": "Paladin",
+            "classSource": "XPHB",
+            "subclassShortName": "Mercy",
+            "subclassSource": "AGtM",
+            "level": 7,
+            "header": 2,
+            "entries": [
+                "Anyone within your aura is immune to the frightened condition. If a frightened creature enters your aura they take charisma modifier radiant or necrotic damage."
+            ]
+        },
+        {
+            "name": "Expedited Mercy",
+            "source": "AGtM",
+            "className": "Paladin",
+            "classSource": "XPHB",
+            "subclassShortName": "Mercy",
+            "subclassSource": "AGtM",
+            "level": 15,
+            "header": 2,
+            "entries": [
+                "When you hit a creature that is poisoned or bloodied, you can use your bonus action to force the creature to make a constitution save against your spell save. On a failure the creature instantly falls to one hit point. On a success the creature takes an extra 4d6 radiant or necrotic damage. You can use this feature charisma modifier times (min 1), you regain all uses of this feature after a long rest."
+            ]
+        },
+        {
+            "name": "The Ultimate Mercy",
+            "source": "AGtM",
+            "className": "Paladin",
+            "classSource": "XPHB",
+            "subclassShortName": "Mercy",
+            "subclassSource": "AGtM",
+            "level": 20,
+            "header": 2,
+            "entries": [
+                "If you have no uses of expedited mercy at the start of combat you regain all expended uses. The damage the creature takes on a success becomes 8d6 radiant or necrotic."
+            ]
+        },
+        {
+            "name": "Flames Walker",
+            "source": "AGtM",
+            "className": "Ranger",
+            "classSource": "XPHB",
+            "subclassShortName": "Flames Walker",
+            "subclassSource": "AGtM",
+            "level": 3,
+            "entries": [
+                "{@i You walk through the flames}",
+                "You have walked through the flames and been purified by fire. You wield the magic of fire and walk through the flames.",
+                {
+                    "name": "Flames Walker Spells",
+                    "source": "AGtM",
+                    "className": "Ranger",
+                    "classSource": "XPHB",
+                    "subclassShortName": "Flames Walker",
+                    "subclassSource": "AGtM",
+                    "level": 3,
+                    "entries": [
+                        "When you reach a Ranger level specified in the Flames Walker Spells table, you thereafter always have the listed spells prepared.",
+                        {
+                            "type": "table",
+                            "caption": "Flames Walker Spells",
+                            "colLabels": [
+                                "Ranger Level",
+                                "Prepared Spells"
+                            ],
+                            "colStyles": [
+                                "col-1 text-center",
+                                "col-11"
+                            ],
+                            "rows": [
+                                [
+                                    "3rd",
+                                    "{@spell Searing Smite|XPHB}"
+                                ],
+                                [
+                                    "5th",
+                                    "{@spell Flame Blade|XPHB}"
+                                ],
+                                [
+                                    "9th",
+                                    "{@spell Fire Ball|XPHB}"
+                                ],
+                                [
+                                    "13th",
+                                    "{@spell Fire Shield|XPHB}"
+                                ],
+                                [
+                                    "17th",
+                                    "{@spell Flame Strike|XPHB}"
+                                ]
+                            ]
+                        }
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Walk Through Flames",
+                    "source": "AGtM",
+                    "className": "Paladin",
+                    "classSource": "XPHB",
+                    "subclassShortName": "Mercy",
+                    "subclassSource": "AGtM",
+                    "level": 3,
+                    "entries": [
+                        "You are resistant to fire damage.",
+                        "Fire Strike When you attack a creature and hit it with a weapon, you can deal an extra 2d6 Fire damage. You can use this benefit only once per turn, you can use it a number or times equal to your wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest."
+                    ],
+                    "type": "entries"
+                }
+            ]
+        },
+        {
+            "name": "Flame Step",
+            "source": "AGtM",
+            "className": "Ranger",
+            "classSource": "XPHB",
+            "subclassShortName": "Flames Walker",
+            "subclassSource": "AGtM",
+            "level": 7,
+            "header": 2,
+            "entries": [
+                "On your turn as a bonus action you can teleport 30 feet. You can use this feature wisdom modifier (minimum of one), you regain all uses of this feature on a Long rest."
+            ]
+        },
+        {
+            "name": "Flames Mark",
+            "source": "AGtM",
+            "className": "Ranger",
+            "classSource": "XPHB",
+            "subclassShortName": "Flames Walker",
+            "subclassSource": "AGtM",
+            "level": 11,
+            "header": 2,
+            "entries": [
+                "The damage from your hunter's mark becomes 1d8 fire damage. A creature effected by your hunter's mark loses resistance to fire damage, immunity to fire damage becomes resistance."
+            ]
+        },
+        {
+            "name": "Wildfire Step",
+            "source": "AGtM",
+            "className": "Ranger",
+            "classSource": "XPHB",
+            "subclassShortName": "Flames Walker",
+            "subclassSource": "AGtM",
+            "level": 15,
+            "header": 2,
+            "entries": [
+                "The range of your flame step becomes 60 feet, and any creature within 10 feet of where you appear takes your druid level as fire damage."
+            ]
+        },
+        {
+            "name": "Street Fighter Rogue",
+            "source": "AGtM",
+            "className": "Rogue",
+            "classSource": "XPHB",
+            "subclassShortName": "Street Fighter",
+            "subclassSource": "AGtM",
+            "level": 3,
+            "entries": [
+                "{@i You fight among the streets}",
+                "You have been trained to excel at fighting fast, dirty, and sly.",
+                {
+                    "name": "Sly Fighter",
+                    "source": "AGtM",
+                    "className": "Rogue",
+                    "classSource": "XPHB",
+                    "subclassShortName": "Street Fighter",
+                    "subclassSource": "AGtM",
+                    "level": 3,
+                    "entries": [
+                        "You can use Dexterity instead of strength for unarmed strikes. You can make a unarmed attack as a bonus action. You roll half your sneak attack damage in place of unarmed strike damage. You can use sneak attack on a unarmed strike."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Slick Moves",
+                    "source": "AGtM",
+                    "className": "Rogue",
+                    "classSource": "XPHB",
+                    "subclassShortName": "Street Fighter",
+                    "subclassSource": "AGtM",
+                    "level": 3,
+                    "entries": [
+                        "After making an attack you can use your reaction to move half your move speed. When making this move you don’t provoke opportunity attacks and you can move through enemy space without costing more feet of movement."
+                    ],
+                    "type": "entries"
+                }
+            ]
+        },
+        {
+            "name": "Fast Fighter",
+            "source": "AGtM",
+            "className": "Rogue",
+            "classSource": "XPHB",
+            "subclassShortName": "Street Fighter",
+            "subclassSource": "AGtM",
+            "level": 9,
+            "header": 2,
+            "entries": [
+                "Once per turn after making an attack make a sleight of hand check versus the enemies perception. If the check succeeds make another attack."
+            ]
+        },
+        {
+            "name": "Flurry of Knives",
+            "source": "AGtM",
+            "className": "Rogue",
+            "classSource": "XPHB",
+            "subclassShortName": "Street Fighter",
+            "subclassSource": "AGtM",
+            "level": 13,
+            "header": 2,
+            "entries": [
+                "When you make an attack using a light weapon you attack twice instead of once."
+            ]
+        },
+        {
+            "name": "Double Sneak Attack",
+            "source": "AGtM",
+            "className": "Rogue",
+            "classSource": "XPHB",
+            "subclassShortName": "Street Fighter",
+            "subclassSource": "AGtM",
+            "level": 17,
+            "header": 2,
+            "entries": [
+                "You can use sneak attack twice per turn."
+            ]
+        },
+        {
+            "name": "Primordial Sorcerer",
+            "source": "AGtM",
+            "className": "Sorcerer",
+            "classSource": "XPHB",
+            "subclassShortName": "Primordial",
+            "subclassSource": "AGtM",
+            "level": 3,
+            "entries": [
+                "{@i The blood of the Primordials flows through you}",
+                "Your spark of magic comes from the primordial Artifex themselves.",
+                {
+                    "name": "Primordial Casting",
+                    "source": "AGtM",
+                    "className": "Sorcerer",
+                    "classSource": "XPHB",
+                    "subclassShortName": "Primordial",
+                    "subclassSource": "AGtM",
+                    "level": 3,
+                    "entries": [
+                        "When you take this feature you can learn a spell from any spell list. Whenever you finish a long rest you can replace this spell with a different one."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Shape the World",
+                    "source": "AGtM",
+                    "className": "Sorcerer",
+                    "classSource": "XPHB",
+                    "subclassShortName": "Primordial",
+                    "subclassSource": "AGtM",
+                    "level": 3,
+                    "entries": [
+                        "When a cast a spell you can ignore all components for that spell. You can use this feature once before needing to take a long rest."
+                    ],
+                    "type": "entries"
+                }
+            ]
+        },
+        {
+            "name": "The Primordial Word",
+            "source": "AGtM",
+            "className": "Sorcerer",
+            "classSource": "XPHB",
+            "subclassShortName": "Primordial",
+            "subclassSource": "AGtM",
+            "level": 6,
+            "header": 2,
+            "entries": [
+                "Whenever you spend a sorcery point you gain Sorcerer level of temp hp."
+            ]
+        },
+        {
+            "name": "Primordial Counter Spell",
+            "source": "AGtM",
+            "className": "Sorcerer",
+            "classSource": "XPHB",
+            "subclassShortName": "Primordial",
+            "subclassSource": "AGtM",
+            "level": 14,
+            "header": 2,
+            "entries": [
+                "You can cast counter spell using sorcery points."
+            ]
+        },
+        {
+            "name": "Primordial Magic",
+            "source": "AGtM",
+            "className": "Sorcerer",
+            "classSource": "XPHB",
+            "subclassShortName": "Primordial",
+            "subclassSource": "AGtM",
+            "level": 18,
+            "header": 2,
+            "entries": [
+                "Whenever you cast a spell under level 5 you can expend a sorcery point to regain that spell slot."
+            ]
+        },
+        {
+            "name": "Pact of the World",
+            "source": "AGtM",
+            "className": "Warlock",
+            "classSource": "XPHB",
+            "subclassShortName": "World",
+            "subclassSource": "AGtM",
+            "level": 3,
+            "entries": [
+                "{@i Your magic is from the world itself}",
+                "Your pact draws on the very power of the world itself. You have made a promise to the essence of the world itself.",
+                {
+                    "name": "World Spells",
+                    "source": "AGtM",
+                    "className": "Warlock",
+                    "classSource": "XPHB",
+                    "subclassShortName": "World",
+                    "subclassSource": "AGtM",
+                    "level": 3,
+                    "entries": [
+                        "The magic of your patron ensures you always have certain spells ready; when you reach a Warlock level specified in the World Spells table, you thereafter always have the listed spells prepared.",
+                        {
+                            "type": "table",
+                            "caption": "World Spells",
+                            "colLabels": [
+                                "Warlock Level",
+                                "Prepared Spells"
+                            ],
+                            "colStyles": [
+                                "col-1 text-center",
+                                "col-11"
+                            ],
+                            "rows": [
+                                [
+                                    "3rd",
+                                    "{@spell Guidance|XPHB}, {@spell Create or Destroy Water|XPHB}, {@spell Entangle|XPHB}, {@spell Barkskin|XPHB}, {@spell Heat Metal|XPHB}"
+                                ],
+                                [
+                                    "5th",
+                                    "{@spell Call Lightning|XPHB}, {@spell Plant Growth|XPHB}"
+                                ],
+                                [
+                                    "7th",
+                                    "{@spell Stone Shape|XPHB}, {@spell Grasping Vine|XPHB}"
+                                ],
+                                [
+                                    "9th",
+                                    "{@spell Tree Stride|XPHB}, {@spell Wall of Stone|XPHB}"
+                                ]
+                            ]
+                        }
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "One with Stone",
+                    "source": "AGtM",
+                    "className": "Warlock",
+                    "classSource": "XPHB",
+                    "subclassShortName": "World",
+                    "subclassSource": "AGtM",
+                    "level": 3,
+                    "entries": [
+                        "You have advantage on effects that would restrict your movement."
+                    ],
+                    "type": "entries"
+                }
+            ]
+        },
+        {
+            "name": "One with Plants",
+            "source": "AGtM",
+            "className": "Warlock",
+            "classSource": "XPHB",
+            "subclassShortName": "World",
+            "subclassSource": "AGtM",
+            "level": 6,
+            "header": 2,
+            "entries": [
+                "You always have speak with plants prepared and can cast it once without expending a spell slot. You regain this use on a long and short rest. You can never get lost by non-magical means."
+            ]
+        },
+        {
+            "name": "The World is With You",
+            "source": "AGtM",
+            "className": "Warlock",
+            "classSource": "XPHB",
+            "subclassShortName": "World",
+            "subclassSource": "AGtM",
+            "level": 10,
+            "header": 2,
+            "entries": [
+                "You any temp HP you gain is doubled. Whenever you lose all of your temp HP you can use your reaction to heal for Warlock level + Charisma modifier hit points."
+            ]
+        },
+        {
+            "name": "One with The World",
+            "source": "AGtM",
+            "className": "Warlock",
+            "classSource": "XPHB",
+            "subclassShortName": "World",
+            "subclassSource": "AGtM",
+            "level": 14,
+            "header": 2,
+            "entries": [
+                "People can feel your innate connection with the world. You can choose to gain expertise in two skills and you gain proficiency in four skills of your choice."
+            ]
+        },
+        {
+            "name": "School of Fieldcraft",
+            "source": "AGtM",
+            "className": "Wizard",
+            "classSource": "XPHB",
+            "subclassShortName": "Fieldcraft",
+            "subclassSource": "AGtM",
+            "level": 3,
+            "entries": [
+                "{@i You learn by doing}",
+                "School of Fieldcraft Wizards study their magic in the wilderness and tend to have a less disciplined approach to magic.",
+                {
+                    "name": "Survival Expert",
+                    "source": "AGtM",
+                    "className": "Wizard",
+                    "classSource": "XPHB",
+                    "subclassShortName": "Fieldcraft",
+                    "subclassSource": "AGtM",
+                    "level": 3,
+                    "entries": [
+                        "Gain proficiency with survival. Gain expertise in survival."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Right Answer Wrong Formula",
+                    "source": "AGtM",
+                    "className": "Wizard",
+                    "classSource": "XPHB",
+                    "subclassShortName": "Fieldcraft",
+                    "subclassSource": "AGtM",
+                    "level": 3,
+                    "entries": [
+                        "Whenever casting a spell you can take disadvantage on the attack roll or give a creature advantage on a saving throw. This doubles the spells damage die. So 2d6 becomes 4d6."
+                    ],
+                    "type": "entries"
+                }
+            ]
+        },
+        {
+            "name": "Natural Power",
+            "source": "AGtM",
+            "className": "Wizard",
+            "classSource": "XPHB",
+            "subclassShortName": "Fieldcraft",
+            "subclassSource": "AGtM",
+            "level": 6,
+            "header": 2,
+            "entries": [
+                "Counter spell and dispel magic become cantrips. On a fail take 3d4 force damage."
+            ]
+        },
+        {
+            "name": "Arcane Craze",
+            "source": "AGtM",
+            "className": "Wizard",
+            "classSource": "XPHB",
+            "subclassShortName": "Fieldcraft",
+            "subclassSource": "AGtM",
+            "level": 10,
+            "header": 2,
+            "entries": [
+                "As a reaction enter an arcane craze. Arcane Craze lasts 1 minute. You become weak to all damage. You have disadvantage on saving throws and enemies have advantage on all attack rolls. When in Arcane Craze use your action to have each creature you choose within 60 feet roll an INT save. On a save taking 6d6 force damage. On a fail taking half damage. Using your bonus action make an attack roll against up to 6 targets on a hit dealing 4d8 force damage. Using your reaction force a creature to make a DC 5 INT Save. On a fail taking 1d100 force damage. On a save taking 4 force damage. You can use Arcan Craze intelligence modifier times (minimum of one), you regain all expended uses on a long rest."
+            ]
+        },
+        {
+            "name": "Rough Training",
+            "source": "AGtM",
+            "className": "Wizard",
+            "classSource": "XPHB",
+            "subclassShortName": "Fieldcraft",
+            "subclassSource": "AGtM",
+            "level": 14,
+            "header": 2,
+            "entries": [
+                "Whenever you cast a spell gain 4d6 + INT modifier temp HP. Gain INT Modifier * Wizard LVL max HP."
             ]
         }
     ]
