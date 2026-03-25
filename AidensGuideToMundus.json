@@ -1377,7 +1377,7 @@
                 "Doom Fighters are known for being relentless pursuers and the are able to extend fights beyond most creatures abilities to survive. They are said to be imbued with some force of relentless power and endless vengeance.",
                 {
                     "type": "refSubclassFeature",
-                    "subclassFeature": "Extened Fighting|Fighter|XPHB|Doom|AGtM|3"
+                    "subclassFeature": "Extended Fighting|Fighter|XPHB|Doom|AGtM|3"
                 },
                 {
                     "type": "refSubclassFeature",
@@ -1708,7 +1708,7 @@
                 },
                 {
                     "type": "refSubclassFeature",
-                    "subclassFeature": "Walk through Flames|Ranger|XPHB|Flames Walker|AGtM|3"
+                    "subclassFeature": "Walk Through Flames|Ranger|XPHB|Flames Walker|AGtM|3"
                 }
             ]
         },
@@ -1825,11 +1825,11 @@
                 "You have been trained to excel at fighting fast, dirty, and sly.",
                 {
                     "type": "refSubclassFeature",
-                    "suclassFeature": "Sly Fighter|Rogue|XPHB|Street Fighter|AGtM|3"
+                    "subclassFeature": "Sly Fighter|Rogue|XPHB|Street Fighter|AGtM|3"
                 },
                 {
                     "type": "refSubclassFeature",
-                    "suclassFeature": "Slick Moves|Rogue|XPHB|Street Fighter|AGtM|3"
+                    "subclassFeature": "Slick Moves|Rogue|XPHB|Street Fighter|AGtM|3"
                 }
             ]
         },
