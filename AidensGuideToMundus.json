@@ -1762,9 +1762,9 @@
         {
             "name": "Walk Through Flames",
             "source": "AGtM",
-            "className": "Paladin",
+            "className": "Ranger",
             "classSource": "XPHB",
-            "subclassShortName": "Mercy",
+            "subclassShortName": "Flames Walker",
             "subclassSource": "AGtM",
             "level": 3,
             "entries": [
