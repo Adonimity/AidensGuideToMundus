@@ -1258,11 +1258,11 @@
                 "Druids of the Circle of Death draw on the lifeforce of others to power their magic.",
                 {
                     "type": "refSubclassFeature",
-                    "subclassFeature": "Circle of Death Spells|Druid|XPHB|Death|3"
+                    "subclassFeature": "Circle of Death Spells|Druid|XPHB|Death|AGtM|3"
                 },
                 {
                     "type": "refSubclassFeature",
-                    "subclassFeature": "Shape of Death|Druid|XPHB|Death|3"
+                    "subclassFeature": "Shape of Death|Druid|XPHB|Death|AGtM|3"
                 }
             ]
         },
