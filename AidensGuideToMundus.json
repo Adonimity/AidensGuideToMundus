@@ -1756,8 +1756,7 @@
                         ]
                     ]
                 }
-            ],
-            "type": "entries"
+            ]
         },
         {
             "name": "Walk Through Flames",
@@ -1770,8 +1769,7 @@
             "entries": [
                 "You are resistant to fire damage.",
                 "Fire Strike When you attack a creature and hit it with a weapon, you can deal an extra 2d6 Fire damage. You can use this benefit only once per turn, you can use it a number or times equal to your wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest."
-            ],
-            "type": "entries"
+            ]
         },
         {
             "name": "Flame Step",
